@@ -11,7 +11,8 @@ module.exports = function(sequelize, DataTypes) {
         defaultValue: false
       }
     }, {
-      timestamps: false
+      timestamps: false,
+      tableName: 'burgers'
     });
     return Burger;
   };
